@@ -10,14 +10,36 @@ public class GameController : MonoBehaviour {
     public float holeSize;
     public float randomHoleOffset;
 
+    public float spawnDistance;
+    public float spawnOffset;
+
+    private float spawnPointer = 0f;
+
 	// Use this for initialization
 	void Start () {
-        SpawnObstacle(10);
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        // spawn
+        if (player != null)
+        {
+            if (spawnPointer - player.transform.position.x < spawnDistance)
+            {
+                spawnPointer += spawnDistance;
+                SpawnObstacle(spawnPointer + spawnOffset);
+            }
+            // clear
+            for (int i = 0; i < obstacleContainer.transform.childCount; i++)
+            {
+                GameObject currentObstacle = obstacleContainer.transform.GetChild(i).gameObject;
+                if (player.transform.position.x - currentObstacle.transform.position.x > spawnOffset)
+                {
+                    Destroy(currentObstacle);
+                }
+            }
+        }
 	}
 
     void SpawnObstacle(float x)
