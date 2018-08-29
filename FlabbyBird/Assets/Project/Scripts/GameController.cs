@@ -79,6 +79,7 @@ public class GameController : MonoBehaviour {
         obstacleTop.transform.position = new Vector2(
             x,
             holeSize / 2 + holeOffset);
+        obstacleTop.transform.localEulerAngles = new Vector3(0, 0, 180);
 
         GameObject obstacleBottom = Instantiate(obstaclePrefab);
         obstacleBottom.transform.SetParent(obstacleContainer.transform);

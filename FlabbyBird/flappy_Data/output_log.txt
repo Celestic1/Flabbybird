@@ -1,0 +1,48 @@
+Initialize engine version: 5.6.3p1 (9c92e827232b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 750M (ID=0xfe4)
+    Vendor:   NVIDIA
+    VRAM:     1974 MB
+    Driver:   22.21.13.8528
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.126 seconds
+Platform assembly: C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Raymond\Flabbybird\FlabbyBird\flappy_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.084101 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.229784 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 286.
+Total: 0.246328 ms (FindLiveObjects: 0.035495 ms CreateObjectMapping: 0.019672 ms MarkObjects: 0.185173 ms  DeleteObjects: 0.005131 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.384460 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 286.
+Total: 0.199714 ms (FindLiveObjects: 0.023520 ms CreateObjectMapping: 0.012829 ms MarkObjects: 0.159087 ms  DeleteObjects: 0.003421 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.396434 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 286.
+Total: 0.227083 ms (FindLiveObjects: 0.023948 ms CreateObjectMapping: 0.017961 ms MarkObjects: 0.180469 ms  DeleteObjects: 0.004276 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 20d8 -> priority: 1 
+  Thread -> id: 2938 -> priority: 1 
+  Thread -> id: 30d4 -> priority: 1 
+  Thread -> id: 468 -> priority: 1 
